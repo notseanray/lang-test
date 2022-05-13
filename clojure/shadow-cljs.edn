@@ -1,0 +1,5 @@
+{:source-paths [""]
+ :dependencies []
+ :builds {:app {:target :node-script
+                :output-to "main.js"
+                :main fib/-main}}}
