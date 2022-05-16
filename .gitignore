@@ -1,3 +1,9 @@
 **/target
 **/fibgcc
 **/fibclang
+nim/fib_native*
+clojure/classes/*
+clojure/.shadow-cljs
+ocaml/a.out
+ocaml/fib.o
+ocaml/fib.cm*
