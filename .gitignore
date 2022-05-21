@@ -1,3 +1,10 @@
 **/target
 **/fibgcc
 **/fibclang
+/asm/fib
+/asm/fib.o
+/clojure/classes
+/clojure/main.js
+/clojure/.shadow-cljs
+/go/main
+/java/out

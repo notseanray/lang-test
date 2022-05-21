@@ -1,3 +1,6 @@
+from numba import jit
+
+@jit
 def main():
     iteration = 0
     test = 0
