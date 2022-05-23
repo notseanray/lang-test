@@ -9,12 +9,12 @@ do
 	while :
 	do 
 		iter=$((iter+1))
-		if [[ $((iter%2)) -eq 0 ]]; then
-			test=$((test-x))
+		if [[ $((iter % 2)) -eq 0 ]]; then
+			test=$((test - x))
 		else
-			test=$((test+x))
+			test=$((test + x))
 		fi
-		declare i=$((x+y))
+		declare i=$(( x+ y))
 		y=$y
 		x=$i
 		if [[ x -gt 999999999 ]]; then
@@ -22,3 +22,5 @@ do
 		fi
 	done
 done
+
+echo "iter: $iter test: $test"

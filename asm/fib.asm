@@ -1,6 +1,6 @@
-; nasm -f elf64 fib.asm -f fib.o
-; ld -o fib fib.o -m elf_x86_64
-; written by sudo, not me
+;; nasm -f elf64 fib.asm
+;; ld -o fib fib.o -m elf_x86_64
+;; written by sudo, not me
 BITS 64
 SECTION .text
     global  _start

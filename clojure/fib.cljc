@@ -16,10 +16,8 @@
             (recur n (inc iter) (if (even? iter)
                                   (+ test prev) (- test prev))
                    curr (+ prev curr))))
-      [iter test])))
+      ["iter: " iter " test: " test])))
 
 (defn -main
   [& args]
   (println (fib)))
-
-#?(:cljs (-main))
