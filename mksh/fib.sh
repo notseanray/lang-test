@@ -8,13 +8,13 @@ do
 	local y=1 
 	while :
 	do 
-		iter=$((iter+1))
-		if [[ $((iter%2)) -eq 0 ]]; then
-			test=$((test-x))
+		iter=$((iter + 1))
+		if [[ $((iter % 2)) -eq 0 ]]; then
+			test=$((test - x))
 		else
-			test=$((test+x))
+			test=$((test + x))
 		fi
-		local i=$((x+y))
+		local i=$((x + y))
 		y=$y
 		x=$i
 		if [[ x -gt 999999999 ]]; then
@@ -22,3 +22,5 @@ do
 		fi
 	done
 done
+
+echo "iter: $iter test: $test"

@@ -19,6 +19,6 @@ int main() {
 			if (x > 999999999) { break; }
 		}
 	}
-	printf("done in: %lld %d", iter, test);
+	printf("iter: %lld test: %d", iter, test);
 	return 0;
 }
