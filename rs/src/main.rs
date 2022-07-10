@@ -4,10 +4,10 @@ fn main() {
 
 fn fib() {
     let mut iter: usize = 0;
-    let mut test: u32 = 0;
+    let mut test = 0;
     for _ in 0..1000000000 {
-        let mut x: u32 = 0;
-        let mut y: u32 = 1;
+        let mut x = 0;
+        let mut y = 1;
         loop {
             iter += 1;
             if iter & 1 == 0 {

@@ -12,5 +12,11 @@ ocaml/fib.cm*
 /clojure/classes
 /clojure/main.js
 /clojure/.shadow-cljs
-/go/main
 /java/out
+/exclude
+**/zig-cache
+**/zig-out
+**/main
+**/main.o
+**/main.hi
+/bin
